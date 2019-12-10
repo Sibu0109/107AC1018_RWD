@@ -1,0 +1,809 @@
+
+@media screen and (min-width: 320px){
+    .body{
+    background : #B44347 url(../imgs/S/background_S.png) center top no-repeat;
+    height: 418px;
+    }
+    #LOGO{
+        width: 41px;
+        height: 22px;
+    }
+    .UP-part{
+        padding-top: 17px;
+        height: 163px;
+        width: 303px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: 31px;
+    }
+
+    .Left-top{
+        display: flex;
+    }
+    .hidden-list{
+        display: block;
+        width: 8.3px;
+        height: 7.1px;
+        position: absolute;
+        top: 18.5px;
+        left: 266px;
+    }
+
+    
+
+    /*導覽列位置*/
+    .nav-bar{
+        padding-top: 21px;
+        height: 10px;
+        width: 300px;
+        position: relative;
+        display: flex;
+        margin-right: 144px;
+        font-size: 9.4px;
+
+    }
+
+    /*導覽列*/
+    .nav-list{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        font-size: 8px;
+        display: none;
+    }
+
+    /*導覽列元件*/
+    .nav-list-item{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 8px;
+        letter-spacing: 0;
+        box-sizing: content-box;
+        list-style: none;
+        padding-left: 22px;
+    }
+
+    .hidden-list:hover > .nav-list{
+        display: block;
+    }
+
+    .search{
+        height: 9px;
+        display: flex;
+        justify-content: end;
+        margin-right:12.5px;
+    }
+    .title{
+        width: 124px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 13px;
+        letter-spacing: 0;
+        margin-left: 31px;
+        padding: 0;
+      
+    }
+    .title-A{
+        margin: 0;
+    }
+    .title-B{
+        font-size: 4px;
+        opacity: 80%;
+    }
+    .buy_button{
+        margin-top: 8px;
+        width: 49px;
+    }
+    .slectBar{
+        width: 130px;
+        height: 13px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 3.14px;
+        margin-top: 25px;
+    }
+    .smallmilk{
+        height: 36px;
+        margin-bottom: 13px;
+    }
+    .maker{
+        width: 12px;
+        height: 9px;
+    }
+
+    .arrow{
+        width: 12px;
+        height: 12px;
+    }
+
+    .bigmilk{
+        width: 76px;
+        height: 120px;
+        position: absolute;
+        top: 25px;
+        left: 167px;
+    }
+    .contentList{
+        width: 34px;
+        margin-top: 0px;
+        position: absolute;
+        top: 10px;
+        left: 260px;
+        bottom: 15px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 2px;
+        letter-spacing: 0;
+        visibility: hidden;
+    
+    }
+    .contentList-position{
+        display: flex;
+    }
+    .contentList-table{
+        display: flex;
+        justify-content: flex-end;
+        width: 70px;
+    }
+    .line{
+        display: flex;
+        justify-content: flex-start;
+        width: 48px;
+        margin: 0;
+        border-bottom: 1px;
+        border-right: 1px;
+        border-left: 1px;
+        border-color: #FFFFFF;
+    }
+    .size{
+        display: flex;
+        margin-top: 64px;
+    }
+    .size p{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .img_size{
+        margin: 0;
+        padding-left: 54px;
+        width: 74px;
+        height: 54px;
+    }
+    .mediaIcon{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 12px;
+        height: 31px;
+        position: absolute;
+        top: 120px;
+        left: 20px;
+        visibility: visible;
+    }
+    .icon{
+        width: 12px;
+    }
+
+    .article{
+        width: 320px;
+        height: 207px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB ;
+        font-weight: normal;
+        font-size: 6.58px;
+        letter-spacing: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        
+    }
+    .article-position{
+        position: absolute;
+        top: 10px;
+        width: 147px;
+        height: 439px;
+    }
+    .footer{
+        visibility: hidden;
+
+    }
+
+    .article-title{
+        font-size: 13.7px;
+        margin: 0;
+    }
+    .article-table{
+        width: 147px;
+        font-size: 10px;
+    }
+
+    .article-table2{
+        text-align: right;
+    }
+
+    .content-table{
+        width: 147px;
+        font-size: 6.6px;
+        line-height:6px; 
+    }
+
+    .table-L{
+        text-indent:6px;
+    }
+
+    .table-R{
+        text-align: right;
+    }
+
+    .table-R2{
+        text-align: right;
+        font-size:5.1px;
+    }
+
+    .content-table2{
+        width: 147px;
+        
+    }
+    .AVAILABLESIZES{
+        width: 96px;
+        height: 80px;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB ;
+        font-weight: normal;
+        font-size: 8.5px;
+        letter-spacing: 0;
+        position: absolute;
+        left: 203px;
+        top: 111px;
+    }
+    .AVAILABLESIZES p{
+        margin: 0;
+    }
+    #size{
+        width: 95.5px;
+        height: 63px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .hidden-list{
+        display: none;
+    }
+    .body{
+    background : #B44347 url(../imgs/M/background_M.png) center top no-repeat;
+    }
+    #LOGO{
+        width: 98px;
+        height: 53px;
+    }
+    .UP-part{
+        padding-top: 40px;
+        height: 390px;
+        width: 724px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: 74.5px;
+    }
+
+    .Left-top{
+        display: flex;
+    }
+
+    /*導覽列位置*/
+    .nav-bar{
+        padding-top: 21px;
+        height: 10px;
+        width: 500px;
+        position: relative;
+        display: flex;
+        margin-right: 288px;
+        font-size: 9.4px;
+
+    }
+
+    /*導覽列*/
+    .nav-list{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        font-size: 9.4px;
+    }
+
+    /*導覽列元件*/
+    .nav-list-item{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 9.4px;
+        letter-spacing: 0;
+        box-sizing: content-box;
+        list-style: none;
+        padding-left: 22px;
+    }
+    .search{
+        height: 17px;
+        display: flex;
+        justify-content: end;
+        margin: 18px 24.5px 0px 0px ;
+    }
+    .title{
+        width: 300px;
+        height: 172px;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 31px;
+        letter-spacing: 0;
+        margin-left: 70px;
+        padding: 0;
+      
+    }
+    .title-A{
+        margin: 0;
+    }
+    .title-B{
+        font-size: 10px;
+        opacity: 80%;
+    }
+    .buy_button{
+        margin-top: 37.5px;
+        width: 118px;
+    }
+    .slectBar{
+        width: 310px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 7.5px;
+        margin-top: 60px;
+    }
+    .smallmilk{
+        height: 96px;
+        margin-bottom: 13px;
+    }
+    .maker{
+        width: 28px;
+        height: 9px;
+    }
+
+    .arrow{
+        width: 30px;
+        height: 30px;
+    }
+
+    .bigmilk{
+        width: 181px;
+        height: 309px;
+        position: absolute;
+        top: 90px;
+        left: 400px;
+    }
+    .contentList{
+        width: 148px;
+        margin-top: 57px;
+        position: absolute;
+        top: 57px;
+        left: 560px;
+        bottom: 15px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 9.4px;
+        letter-spacing: 0;
+        visibility: visible;
+    
+    }
+    .contentList-position{
+        display: flex;
+    }
+    .contentList-table{
+        display: flex;
+        justify-content: flex-end;
+        width: 70px;
+    }
+    .line{
+        display: flex;
+        justify-content: flex-start;
+        width: 48px;
+        margin: 0;
+        border-bottom: 1px;
+        border-right: 1px;
+        border-left: 1px;
+        border-color: #FFFFFF;
+    }
+    .size{
+        display: flex;
+        margin-top: 64px;
+    }
+    .size p{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .img_size{
+        margin: 0;
+        padding-left: 54px;
+        width: 74px;
+        height: 54px;
+    }
+    .mediaIcon{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 21px;
+        height: 47px;
+        position: absolute;
+        top: 240px;
+        left: 120px;
+    }
+    .icon{
+        width: 20px;
+    }
+
+    .article{
+        width: 768px;
+        height: 500px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB ;
+        font-weight: normal;
+        font-size: 15.8px;
+        letter-spacing: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        
+    }
+    .article-position{
+        position: absolute;
+        top: 32px;
+        width: 350px;
+        height: 439px;
+    }
+    .footer{
+        font-size: 10.7px;
+        visibility: visible;
+    }
+
+    .article-title{
+        font-size: 33px;
+        margin: 0;
+    }
+    .article-table{
+        width: 350px;
+        font-size: 24px;
+    }
+
+    .article-table2{
+        text-align: right;
+    }
+
+    .content-table{
+        width: 350px;
+        font-size: 15.8px;
+        line-height:20px; 
+    }
+
+    .table-L{
+        text-indent:15px;
+    }
+
+    .table-R{
+        text-align: right;
+    }
+
+    .table-R2{
+        text-align: right;
+        font-size:12.2px;
+    }
+
+    .content-table2{
+        width: 350px;
+
+    }
+    .AVAILABLESIZES{
+        width: 230px;
+        height: 221px;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB ;
+        font-weight: normal;
+        font-size: 20.5px;
+        letter-spacing: 0;
+        position: absolute;
+        left: 454px;
+        top: 300px;
+    }
+    .AVAILABLESIZES p{
+        margin: 0;
+    }
+    #size{
+        width: 230px;
+        height: 151px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .hidden-list{
+        display: none;
+    }
+    .body{
+        height: 1677px;
+        background : #B44347 url(../imgs/L/background.png) center no-repeat;
+    }
+    #LOGO{
+        width: 199px;
+        height: 116px;
+    }
+    .UP-part{
+        padding-top: 69px;
+        height: 650px;
+        width: 1209px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-bottom: 85px;
+    }
+
+    .Left-top{
+        display: flex;
+    }
+
+    /*導覽列位置*/
+    .nav-bar{
+        padding-top: 33px;
+        height: 20px;
+        position: relative;
+        display: flex;
+        margin-right: 480px;
+    }
+
+    /*導覽列*/
+    .nav-list{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+
+    /*導覽列元件*/
+    .nav-list-item{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 16px;
+        letter-spacing: 0;
+        box-sizing: content-box;
+        list-style: none;
+        padding-left: 37px;
+    }
+    .search{
+        height: 28px;
+        display: flex;
+        justify-content: end;
+        margin: 18px 24.5px 0px 0px ;
+    }
+    .title{
+        width: 490px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 53px;
+        letter-spacing: 0;
+        margin-left: 117px;
+        padding: 0;
+      
+    }
+    .title-A{
+        margin: 0;
+    }
+    .title-B{
+        font-size: 16px;
+        opacity: 80%;
+    }
+    .buy_button{
+        margin-top: 60px;
+        width: 223px;
+    }
+    .slectBar{
+        width: 550px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        margin-top: 150px;
+    }
+    .smallmilk{
+        height: 161px;
+        margin-bottom: 70px;
+    }
+    .arrow{
+        width: 43px;
+        height: 43px;
+    }
+    .maker{
+        width: 94px;
+        height: 39px;
+    }
+
+    .bigmilk{
+        height: 516px;
+        width: 316px;
+        position: absolute;
+        top: 150px;
+        left: 665px;
+    }
+    .contentList{
+        width: 246px;
+        margin-top: 100px;
+        position: absolute;
+        top: 100px;
+        left: 937px;
+        bottom: 27px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB;
+        font-size: 16px;
+        letter-spacing: 0;
+        visibility: visible;
+    
+    }
+    .contentList-position{
+        display: flex;
+    }
+    .contentList-table{
+        display: flex;
+        justify-content: flex-end;
+        width: 101px;
+    }
+    .line{
+        display: flex;
+        justify-content: flex-start;
+        width: 87px;
+        margin: 0;
+        border-bottom: 1px;
+        border-right: 1px;
+        border-left: 1px;
+        border-color: #FFFFFF;
+    }
+    .size{
+        display: flex;
+        margin-top: 105px;
+    }
+    .size p{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .img_size{
+        margin: 0;
+        padding-left: 70px;
+        width: 123px;
+        height: 91px;
+    }
+    .mediaIcon{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        width: 32.4px;
+        height: 26.4px;
+        position: absolute;
+        top: 420px;
+        left: 200px;
+    }
+    .icon{
+        width: 32px;
+    }
+
+    .article{
+        width: 1280px;
+        height: 873px;
+        text-align: left;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB ;
+        font-weight: normal;
+        font-size: 26px;
+        letter-spacing: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        
+    }
+    .article-position{
+        position: absolute;
+        top: 60px;
+        width: 580px;
+        height: 765px;
+    }
+    .footer{
+        font-size: 18px;
+        visibility: visible;
+    }
+
+    .article-title{
+        font-size: 55px;
+        margin: 0;
+    }
+    .article-table{
+        width: 580px;
+        font-size: 40px;
+    }
+
+    .article-table2{
+        text-align: right;
+    }
+
+    .content-table{
+        width: 580px;
+        font-size: 26px;
+        line-height:35px; 
+    }
+
+    .table-L{
+        text-indent:30px;
+    }
+
+    .table-R{
+        text-align: right;
+    }
+
+    .table-R2{
+        text-align: right;
+        font-size:20px;
+    }
+
+    .content-table2{
+        width: 580px;
+
+    }
+    .AVAILABLESIZES{
+        width: 383px;
+        height: 371px;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Berlin Sans FB ;
+        font-weight: normal;
+        font-size: 34px;
+        letter-spacing: 0;
+        position: absolute;
+        left: 760px;
+        top: 463px;
+    }
+    .AVAILABLESIZES p{
+        margin: 0;
+    }
+    #size{
+        width: 384px;
+        height: 253px;
+    }
+}
